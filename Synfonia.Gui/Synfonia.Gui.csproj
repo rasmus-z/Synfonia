@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
@@ -14,12 +14,12 @@
     <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia.Desktop" Version="0.10.0-preview5" />
-    <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.0-preview5" />
-    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.0-preview5" />
-    <PackageReference Include="Avalonia.Xaml.Behaviors" Version="0.10.0-preview4" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.999-cibuild*" />
+    <PackageReference Include="Avalonia.ReactiveUI" Version="0.10.999-cibuild*" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="0.10.999-cibuild*" />
+    <PackageReference Include="Avalonia.Xaml.Behaviors" Version="0.10.0-preview5" />
     <PackageReference Include="DynamicData" Version="*" />
     <PackageReference Include="Nito.AsyncEx.Coordination" Version="*" />
-     <ProjectReference Include="..\Synfonia.Backend\Synfonia.Backend.csproj" />
+    <ProjectReference Include="..\Synfonia.Backend\Synfonia.Backend.csproj" />
   </ItemGroup>
 </Project>
